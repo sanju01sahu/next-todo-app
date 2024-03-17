@@ -5,7 +5,7 @@ function InputModal({create}: InputModalProps){
 
     const [todoItem, setTodoItem] = useState<string>("")
 
-    const handleAddTodo = (e: React.ChangeEvent<HTMLFormElement>) =>{
+    const handleAddTodo = (e: React.ChangeEvent<HTMLInputElement>) =>{
         
         // console.log(e.target.value)
         
